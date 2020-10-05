@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: Junit.studentsinfo.FirstSerenityTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 2, Skipped: 3, Time elapsed: 27.029 s <<< FAILURE! - in Junit.studentsinfo.FirstSerenityTest
+Junit.studentsinfo.FirstSerenityTest.filedoesntexist  Time elapsed: 0.81 s  <<< ERROR!
+java.io.FileNotFoundException: E:\damon\test\1.txt (The system cannot find the path specified)
+	at Junit.studentsinfo.FirstSerenityTest.filedoesntexist(FirstSerenityTest.java:63)
+
+Junit.studentsinfo.FirstSerenityTest.thisIsaFailing  Time elapsed: 0.886 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <500> doesn't match actual status code <200>.
+
+	at Junit.studentsinfo.FirstSerenityTest.thisIsaFailing(FirstSerenityTest.java:41)
+
+Junit.studentsinfo.FirstSerenityTest.thisisATestWithError  Time elapsed: 0.72 s  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at Junit.studentsinfo.FirstSerenityTest.thisisATestWithError(FirstSerenityTest.java:57)
+

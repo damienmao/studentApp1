@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="Junit.studentsinfo.FirstSerenityTest" skipped="4" tests="8" time="13.44" timestamp="2020-10-04 05:25:33"><testcase classname="Junit.studentsinfo.FirstSerenityTest" name="Thisis manual"><skipped/></testcase><testcase classname="Junit.studentsinfo.FirstSerenityTest" name="this test will get the info of all the student from the App"/><testcase classname="Junit.studentsinfo.FirstSerenityTest" name="Filedoesntexist"><compromised message="E:\damon\test\1.txt (The system cannot find the path specified)" type="java.io.FileNotFoundException">E:\damon\test\1.txt (The system cannot find the path specified)</compromised><system-err>E:\damon\test\1.txt (The system cannot find the path specified)&#13;
+Junit.studentsinfo.FirstSerenityTest.filedoesntexist(FirstSerenityTest.java:63)&#13;
+</system-err></testcase><testcase classname="Junit.studentsinfo.FirstSerenityTest" name="Thisisa skipped test"><skipped/></testcase><testcase classname="Junit.studentsinfo.FirstSerenityTest" name="This isa failing"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; doesn't match actual status code &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; doesn't match actual status code &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; doesn't match actual status code &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+Junit.studentsinfo.FirstSerenityTest.thisIsaFailing(FirstSerenityTest.java:41)&#13;
+</system-err></testcase><testcase classname="Junit.studentsinfo.FirstSerenityTest" name="Thisisa pending test"><skipped/></testcase><testcase classname="Junit.studentsinfo.FirstSerenityTest" name="Thisis a test with error"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero&#13;
+Junit.studentsinfo.FirstSerenityTest.thisisATestWithError(FirstSerenityTest.java:57)&#13;
+</system-err></testcase><testcase classname="Junit.studentsinfo.FirstSerenityTest" name="Get all students"/></testsuite>

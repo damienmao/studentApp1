@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"First serenity test","Filedoesntexist","COMPROMISED","2020-10-04T17:25:43.161+11:00[Australia/Sydney]","0.0","1.08"
+"First serenity test","This isa failing","FAILURE","2020-10-04T17:25:45.462+11:00[Australia/Sydney]","0.0","0.86"
+"First serenity test","Thisis a test with error","ERROR","2020-10-04T17:25:47.578+11:00[Australia/Sydney]","0.0","0.73"
+"Student crud test","This test will create new student","FAILURE","2020-10-04T17:25:57.381+11:00[Australia/Sydney]","0.0","2.61"
