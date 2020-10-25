@@ -1,4 +1,8 @@
-Junit\studentIDInfo\FirstSerenityTest_ID.class
+com\studentapp\cucumber\serenity\studentSerenitySteps.class
 TestBase\TestBase.class
-Junit\studentsinfo\FirstSerenityTest.class
 Junit\studentsinfo\studentCrudTest.class
+Utils\TestUtils.class
+Junit\studentIDInfo\FirstSerenityTest_ID.class
+Junit\studentsinfo\CreateStudentDataDrivenTest.class
+Utils\ReuseableSpecification.class
+Junit\studentsinfo\FirstSerenityTest.class

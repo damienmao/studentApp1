@@ -1,11 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: Junit.studentsinfo.studentCrudTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.611 s <<< FAILURE! - in Junit.studentsinfo.studentCrudTest
-Junit.studentsinfo.studentCrudTest.createStudent  Time elapsed: 2.537 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <201> doesn't match actual status code <500>.
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 21.04 s <<< FAILURE! - in Junit.studentsinfo.studentCrudTest
+Junit.studentsinfo.studentCrudTest.test001  Time elapsed: 4.964 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at Junit.studentsinfo.studentCrudTest.test001(studentCrudTest.java:49)
 
-	at Junit.studentsinfo.studentCrudTest.createStudent(studentCrudTest.java:36)
+Junit.studentsinfo.studentCrudTest.test002  Time elapsed: 5.707 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at Junit.studentsinfo.studentCrudTest.test002(studentCrudTest.java:60)
+
+Junit.studentsinfo.studentCrudTest.test003  Time elapsed: 4.888 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at Junit.studentsinfo.studentCrudTest.test003(studentCrudTest.java:76)
+
+Junit.studentsinfo.studentCrudTest.test004  Time elapsed: 5.301 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at Junit.studentsinfo.studentCrudTest.test004(studentCrudTest.java:87)
 

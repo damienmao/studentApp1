@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"First serenity test","Thisis a test with error","ERROR","2020-10-04T17:25:47.578+11:00[Australia/Sydney]","0.0","0.73"
+"First serenity test","this test will get the info of all the student from the App","ERROR","2020-10-20T18:18:30.127+11:00[Australia/Sydney]","0.0","5.31"
+"First serenity test","This isa failing","ERROR","2020-10-20T18:18:37.492+11:00[Australia/Sydney]","0.0","4.81"
+"First serenity test","Thisis a test with error","ERROR","2020-10-20T18:18:43.514+11:00[Australia/Sydney]","0.0","0.77"
+"First serenity test","Get all students","ERROR","2020-10-20T18:18:44.284+11:00[Australia/Sydney]","0.0","5.18"

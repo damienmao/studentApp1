@@ -1,6 +1,7 @@
 package Junit.studentsinfo;
 
 import TestBase.TestBase;
+import Utils.ReuseableSpecification;
 import Utils.TestUtils;
 import com.studentapp.cucumber.serenity.studentSerenitySteps;
 import com.studentapp.model.studentClass;
@@ -27,6 +28,8 @@ import static org.junit.Assert.*;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
 public class studentCrudTest extends TestBase {
+
+
     static String firstName=TestUtils.getRandomValue()+"Smokeuser1";
     static String lastName=TestUtils.getRandomValue()+"Smokeuser1";
     static String programmed=TestUtils.getRandomValue()+"ComputerScience1";
@@ -43,13 +46,12 @@ public class studentCrudTest extends TestBase {
         courses.add("Java");
         courses.add("C++");
 
-        steps.createStudent(firstName,lastName,email,programmed,courses).statusCode(201);
+        steps.createStudent(firstName,lastName,email,programmed,courses).
+                statusCode(201).spec(ReuseableSpecification.getGenericResponseSpec());
 
         //since this is a post request, you may want to specify the content type
         //but you dont need a content type for the get request
     }
-
-
 
     @Title("Verify if the student is added to the application")
     @Test
@@ -59,41 +61,32 @@ public class studentCrudTest extends TestBase {
         System.out.println("the value is "+value);
 
         assertThat(value,hasValue(firstName));
+
         id=(int) value.get("id");
     }
 
     @Title("Update the user's info and verify the update information")
     @Test
     public void test003(){
-        ArrayList<String> courses=new ArrayList<String>();
+        ArrayList<String> courses=new ArrayList<>();
         courses.add("Java");
         courses.add("C++");
         firstName=firstName+"_updated";
-        studentClass student=new studentClass();
-        student.setCourses(courses);
-        student.setEmail(email);
-        student.setProgramme(programmed);
-        student.setFirstName(firstName);
-        student.setLastName(lastName);
 
-        SerenityRest.rest().given().contentType(ContentType.JSON).log().all().when().
-                body(student).put("/"+id).then().log().all();
+        steps.updateStudent(id,firstName,lastName,email,programmed,courses);
 
-        String p1="findAll{it.firstName=='";
-        String p2="'}.get(0)";
-        HashMap<String,Object> value=SerenityRest.rest().given().when().get("/list").then().log().all().statusCode(200).extract().path(p1+firstName+p2);
+
+        HashMap<String,Object> value=steps.getStudentInfoByFirstName(firstName);
         System.out.println("the value is "+value);
-
         assertThat(value,hasValue(firstName));
     }
 
     @Title("Delete the student and verify if the student is deleted!")
     @Test
     public void test004(){
-        SerenityRest.rest().given().when().delete("/"+id);
-
-        SerenityRest.rest().given().when().get("/"+id).then().log().all().statusCode(404);
-    }
+        steps.deleteStudent(id);
+        steps.getstudentInfowithID(id).statusCode(404);
+         }
 
 
 }

@@ -1,19 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: Junit.studentsinfo.FirstSerenityTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 2, Skipped: 3, Time elapsed: 27.029 s <<< FAILURE! - in Junit.studentsinfo.FirstSerenityTest
-Junit.studentsinfo.FirstSerenityTest.filedoesntexist  Time elapsed: 0.81 s  <<< ERROR!
+Tests run: 8, Failures: 0, Errors: 5, Skipped: 3, Time elapsed: 21.013 s <<< FAILURE! - in Junit.studentsinfo.FirstSerenityTest
+Junit.studentsinfo.FirstSerenityTest.test01  Time elapsed: 5.302 s  <<< ERROR!
+java.lang.NullPointerException
+	at Junit.studentsinfo.FirstSerenityTest.test01(FirstSerenityTest.java:80)
+
+Junit.studentsinfo.FirstSerenityTest.filedoesntexist  Time elapsed: 0.909 s  <<< ERROR!
 java.io.FileNotFoundException: E:\damon\test\1.txt (The system cannot find the path specified)
 	at Junit.studentsinfo.FirstSerenityTest.filedoesntexist(FirstSerenityTest.java:63)
 
-Junit.studentsinfo.FirstSerenityTest.thisIsaFailing  Time elapsed: 0.886 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <500> doesn't match actual status code <200>.
-
+Junit.studentsinfo.FirstSerenityTest.thisIsaFailing  Time elapsed: 4.804 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
 	at Junit.studentsinfo.FirstSerenityTest.thisIsaFailing(FirstSerenityTest.java:41)
 
-Junit.studentsinfo.FirstSerenityTest.thisisATestWithError  Time elapsed: 0.72 s  <<< ERROR!
+Junit.studentsinfo.FirstSerenityTest.thisisATestWithError  Time elapsed: 0.763 s  <<< ERROR!
 java.lang.ArithmeticException: / by zero
 	at Junit.studentsinfo.FirstSerenityTest.thisisATestWithError(FirstSerenityTest.java:57)
+
+Junit.studentsinfo.FirstSerenityTest.getAllStudents  Time elapsed: 5.177 s  <<< ERROR!
+java.lang.NullPointerException
+	at Junit.studentsinfo.FirstSerenityTest.getAllStudents(FirstSerenityTest.java:34)
 

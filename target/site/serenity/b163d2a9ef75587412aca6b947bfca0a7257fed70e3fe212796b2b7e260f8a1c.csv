@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Student crud test","This test will create new student","FAILURE","2020-10-04T17:25:57.381+11:00[Australia/Sydney]","0.0","2.61"
+"Student crud test","This test will create new student","ERROR","2020-10-20T18:18:49.922+11:00[Australia/Sydney]","0.0","5.01"
+"Student crud test","Verify if the student is added to the application","ERROR","2020-10-20T18:18:54.938+11:00[Australia/Sydney]","0.0","5.71"
+"Student crud test","Update the user's info and verify the update information","ERROR","2020-10-20T18:19:00.661+11:00[Australia/Sydney]","0.0","4.89"
+"Student crud test","Delete the student and verify if the student is deleted!","ERROR","2020-10-20T18:19:05.562+11:00[Australia/Sydney]","0.0","5.3"

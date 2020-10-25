@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Junit.studentsinfo.FirstSerenityTest" time="27.029" tests="8" errors="2" skipped="3" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Junit.studentsinfo.FirstSerenityTest" time="21.013" tests="8" errors="5" skipped="3" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="AU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Damon\AppData\Local\Temp\surefire4239423231356827827\surefirebooter7208992948550231077.jar C:\Users\Damon\AppData\Local\Temp\surefire4239423231356827827 2020-10-04T17-25-27_730-jvmRun1 surefire351285824956418547tmp surefire_0600883677536897444tmp"/>
+    <property name="sun.java.command" value="C:\Users\Damon\AppData\Local\Temp\surefire1084921485900725464\surefirebooter8351241206808244854.jar C:\Users\Damon\AppData\Local\Temp\surefire1084921485900725464 2020-10-20T18-16-17_253-jvmRun1 surefire2168924046096182188tmp surefire_02763271751523345942tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Damon\Desktop\studentApp\target\test-classes;C:\Users\Damon\Desktop\studentApp\target\classes;C:\Users\Damon\.m2\repository\net\serenity-bdd\serenity-core\2.3.4\serenity-core-2.3.4.jar;C:\Users\Damon\.m2\repository\net\bytebuddy\byte-buddy\1.10.1\byte-buddy-1.10.1.jar;C:\Users\Damon\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.1\byte-buddy-agent-1.10.1.jar;C:\Users\Damon\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Damon\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Damon\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Damon\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Damon\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Damon\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Damon\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2.jar;C:\Users\Damon\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Damon\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Damon\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\Damon\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Damon\.m2\repository\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;C:\Users\Damon\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\Damon\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Damon\.m2\repository\io\cucumber\cucumber-core\6.6.0\cucumber-core-6.6.0.jar;C:\Users\Damon\.m2\repository\io\cucumber\cucumber-gherkin\6.6.0\cucumber-gherkin-6.6.0.jar;C:\Users\Damon\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.6.0\cucumber-gherkin-messages-6.6.0.jar;C:\Users\Damon\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\Damon\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Damon\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Damon\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\Damon\.m2\repository\io\cucumber\cucumber-plugin\6.6.0\cucumber-plugin-6.6.0.jar;C:\Users\Damon\.m2\repository\io\cucumber\docstring\6.6.0\docstring-6.6.0.jar;C:\Users\Damon\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Damon\.m2\repository\io\cucumber\create-meta\2.0.1\create-meta-2.0.1.jar;C:\Users\Damon\.m2\repository\io\cucumber\cucumber-java\6.6.0\cucumber-java-6.6.0.jar;C:\Users\Damon\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Damon\.m2\repository\io\vavr\vavr\0.9.0\vavr-0.9.0.jar;C:\Users\Damon\.m2\repository\io\vavr\vavr-match\0.9.0\vavr-match-0.9.0.jar;C:\Users\Damon\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\Damon\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\Damon\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar;C:\Users\Damon\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Damon\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar;C:\Users\Damon\.m2\repository\net\serenity-bdd\serenity-report-resources\2.3.4\serenity-report-resources-2.3.4.jar;C:\Users\Damon\.m2\repository\net\serenity-bdd\serenity-model\2.3.4\serenity-model-2.3.4.jar;C:\Users\Damon\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\Damon\.m2\repository\org\apache\commons\commons-text\1.6\commons-text-1.6.jar;C:\Users\Damon\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\Damon\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Damon\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\Damon\.m2\repository\net\serenity-bdd\serenity-reports\2.3.4\serenity-reports-2.3.4.jar;C:\Users\Damon\.m2\repository\net\serenity-bdd\serenity-stats\2.3.4\serenity-stats-2.3.4.jar;C:\Users\Damon\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.31\kotlin-stdlib-1.3.31.jar;C:\Users\Damon\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.31\kotlin-stdlib-common-1.3.31.jar;C:\Users\Damon\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Damon\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Damon\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Damon\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Damon\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Damon\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Damon\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Damon\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Damon\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Damon\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Damon\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\Damon\.m2\repository\com\assertthat\selenium-shutterbug\0.9.3\selenium-shutterbug-0.9.3.jar;C:\Users\Damon\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\Damon\.m2\repository\com\github\zafarkhaja\java-semver\0.9.0\java-semver-0.9.0.jar;C:\Users\Damon\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\Damon\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.37.0\htmlunit-driver-2.37.0.jar;C:\Users\Damon\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\Damon\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\Damon\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Damon\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Damon\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\Damon\.m2\repository\org\springframework\spring-context-support\5.1.2.RELEASE\spring-context-support-5.1.2.RELEASE.jar;C:\Users\Damon\.m2\repository\org\springframework\spring-beans\5.1.2.RELEASE\spring-beans-5.1.2.RELEASE.jar;C:\Users\Damon\.m2\repository\org\springframework\spring-context\5.1.2.RELEASE\spring-context-5.1.2.RELEASE.jar;C:\Users\Damon\.m2\repository\org\springframework\spring-aop\5.1.2.RELEASE\spring-aop-5.1.2.RELEASE.jar;C:\Users\Damon\.m2\repository\org\springframework\spring-expression\5.1.2.RELEASE\spring-expression-5.1.2.RELEASE.jar;C:\Users\Damon\.m2\repository\org\springframework\spring-core\5.1.2.RELEASE\spring-core-5.1.2.RELEASE.jar;C:\Users\Damon\.m2\repository\org\springframework\spring-jcl\5.1.2.RELEASE\spring-jcl-5.1.2.RELEASE.jar;C:\Users\Damon\.m2\repository\org\codehaus\groovy\groovy\2.5.5\groovy-2.5.5.jar;C:\Users\Damon\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\Damon\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\Users\Damon\.m2\repository\joda-time\joda-time\2.7\joda-time-2.7.jar;C:\Users\Damon\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\Damon\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Damon\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Damon\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Damon\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Damon\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Damon\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\Damon\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Damon\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Damon\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.37.0\htmlunit-2.37.0.jar;C:\Users\Damon\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.37.0\htmlunit-core-js-2.37.0.jar;C:\Users\Damon\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.37.0\neko-htmlunit-2.37.0.jar;C:\Users\Damon\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\Damon\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.5.0\htmlunit-cssparser-1.5.0.jar;C:\Users\Damon\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Damon\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.26.v20200117\websocket-client-9.4.26.v20200117.jar;C:\Users\Damon\.m2\repository\org\eclipse\jetty\jetty-client\9.4.26.v20200117\jetty-client-9.4.26.v20200117.jar;C:\Users\Damon\.m2\repository\org\eclipse\jetty\jetty-http\9.4.26.v20200117\jetty-http-9.4.26.v20200117.jar;C:\Users\Damon\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.26.v20200117\jetty-xml-9.4.26.v20200117.jar;C:\Users\Damon\.m2\repository\org\eclipse\jetty\jetty-util\9.4.26.v20200117\jetty-util-9.4.26.v20200117.jar;C:\Users\Damon\.m2\repository\org\eclipse\jetty\jetty-io\9.4.26.v20200117\jetty-io-9.4.26.v20200117.jar;C:\Users\Damon\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.26.v20200117\websocket-common-9.4.26.v20200117.jar;C:\Users\Damon\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.26.v20200117\websocket-api-9.4.26.v20200117.jar;C:\Users\Damon\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Damon\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Damon\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\Damon\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\Damon\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\Damon\.m2\repository\org\asciidoctor\asciidoctorj\1.5.6\asciidoctorj-1.5.6.jar;C:\Users\Damon\.m2\repository\org\jruby\jruby-complete\1.7.26\jruby-complete-1.7.26.jar;C:\Users\Damon\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\Damon\.m2\repository\javax\el\javax.el-api\2.2.4\javax.el-api-2.2.4.jar;C:\Users\Damon\.m2\repository\org\glassfish\web\javax.el\2.2.4\javax.el-2.2.4.jar;C:\Users\Damon\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Damon\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Damon\.m2\repository\org\awaitility\awaitility\4.0.1\awaitility-4.0.1.jar;C:\Users\Damon\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Damon\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Damon\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\Damon\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\Damon\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\Damon\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\Damon\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\Damon\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\Damon\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\Damon\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\Damon\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\Damon\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\Damon\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\Damon\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\Damon\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\Damon\.m2\repository\io\github\bonigarcia\webdrivermanager\4.1.0\webdrivermanager-4.1.0.jar;C:\Users\Damon\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\Damon\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\Damon\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\Damon\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Damon\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Damon\.m2\repository\io\rest-assured\rest-assured\3.0.0\rest-assured-3.0.0.jar;C:\Users\Damon\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.6\groovy-xml-2.4.6.jar;C:\Users\Damon\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Damon\.m2\repository\io\rest-assured\json-path\3.0.0\json-path-3.0.0.jar;C:\Users\Damon\.m2\repository\io\rest-assured\rest-assured-common\3.0.0\rest-assured-common-3.0.0.jar;C:\Users\Damon\.m2\repository\io\rest-assured\xml-path\3.0.0\xml-path-3.0.0.jar;C:\Users\Damon\.m2\repository\net\serenity-bdd\serenity-junit\2.3.4\serenity-junit-2.3.4.jar;C:\Users\Damon\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.3.4\serenity-rest-assured-2.3.4.jar;C:\Users\Damon\.m2\repository\org\codehaus\groovy\groovy-json\2.5.5\groovy-json-2.5.5.jar;C:\Users\Damon\.m2\repository\net\serenity-bdd\serenity-cucumber\1.9.49\serenity-cucumber-1.9.49.jar;C:\Users\Damon\.m2\repository\net\serenity-bdd\serenity-screenplay\2.0.90\serenity-screenplay-2.0.90.jar;C:\Users\Damon\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.0.90\serenity-screenplay-webdriver-2.0.90.jar;C:\Users\Damon\.m2\repository\io\cucumber\cucumber-junit\2.4.0\cucumber-junit-2.4.0.jar;C:\Users\Damon\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\Damon\.m2\repository\org\slf4j\slf4j-simple\1.6.1\slf4j-simple-1.6.1.jar;C:\Users\Damon\.m2\repository\org\codehaus\groovy\groovy-all\1.8.6\groovy-all-1.8.6.jar;C:\Users\Damon\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.5.4\jackson-databind-2.5.4.jar;C:\Users\Damon\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.0\jackson-annotations-2.5.0.jar;C:\Users\Damon\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.5.4\jackson-core-2.5.4.jar;C:\Users\Damon\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Damon\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M4\surefire-api-3.0.0-M4.jar;C:\Users\Damon\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M4\surefire-logger-api-3.0.0-M4.jar;C:\Users\Damon\.m2\repository\com\googlecode\lambdaj\lambdaj\2.3.3\lambdaj-2.3.3.jar;C:\Users\Damon\.m2\repository\org\hamcrest\hamcrest-all\1.1\hamcrest-all-1.1.jar;C:\Users\Damon\.m2\repository\cglib\cglib-nodep\2.2\cglib-nodep-2.2.jar;C:\Users\Damon\.m2\repository\org\assertj\assertj-core\1.7.0\assertj-core-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Damon"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Damon\AppData\Local\Temp\surefire4239423231356827827\surefirebooter7208992948550231077.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Damon\AppData\Local\Temp\surefire1084921485900725464\surefirebooter8351241206808244854.jar"/>
     <property name="sun.boot.class.path" value="C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\lib\resources.jar;C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\lib\rt.jar;C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\lib\sunrsasign.jar;C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\lib\jsse.jar;C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\lib\jce.jar;C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\lib\charsets.jar;C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\lib\jfr.jar;C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -53,7 +53,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\oracledatabase\dbhomeXE\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;D:\python;C:\Users\Damon\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.7;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Gradle\gradle-6.6.1\bin;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-13.0.1\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Damon\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Damon\AppData\Local\Programs\Python\Python37\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Damon\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\Damon\AppData\Roaming\npm;D:\pycharm\PyCharm Community Edition 2019.3.4\bin;;C:\Gradle\gradle-6.6.1\bin;C:\Maven\apache-maven-3.6.3\bin;;."/>
+    <property name="java.library.path" value="C:\Users\Damon\.jdks\corretto-1.8.0_265\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\oracledatabase\dbhomeXE\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;D:\python;C:\Users\Damon\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.7;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Gradle\gradle-6.6.1\bin;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\Java\jdk-13.0.1;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Damon\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Damon\AppData\Local\Programs\Python\Python37\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Damon\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\Damon\AppData\Roaming\npm;D:\pycharm\PyCharm Community Edition 2019.3.4\bin;;C:\Gradle\gradle-6.6.1\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Users\Damon\AppData\Local\GitHubDesktop\bin;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
     <property name="java.vm.version" value="25.265-b01"/>
@@ -63,24 +63,8 @@
   </properties>
   <testcase name="thisisManual" classname="Junit.studentsinfo.FirstSerenityTest" time="0">
     <skipped/>
-    <system-err><![CDATA[1267 [main] INFO  - 
-
--------------------------------------------------------------------------------------
-     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
-    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
-   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
-    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
-.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
-|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
-                                                                                     
- News and tutorials at http://www.serenity-bdd.info                                  
- Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
- Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
- Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
--------------------------------------------------------------------------------------
-
-2211 [main] INFO  - Test Suite Started: First serenity test
-3707 [main] INFO  - 
+    <system-err><![CDATA[126067 [main] INFO  - Test Suite Started: First serenity test
+127840 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -91,22 +75,38 @@ thisisManual
 -------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="test01" classname="Junit.studentsinfo.FirstSerenityTest" time="7.399"/>
-  <testcase name="filedoesntexist" classname="Junit.studentsinfo.FirstSerenityTest" time="0.81">
+  <testcase name="test01" classname="Junit.studentsinfo.FirstSerenityTest" time="5.302">
+    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at Junit.studentsinfo.FirstSerenityTest.test01(FirstSerenityTest.java:80)
+]]></error>
+    <system-err><![CDATA[129072 [main] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+test01
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="filedoesntexist" classname="Junit.studentsinfo.FirstSerenityTest" time="0.909">
     <error message="E:\damon\test\1.txt (The system cannot find the path specified)" type="java.io.FileNotFoundException"><![CDATA[java.io.FileNotFoundException: E:\damon\test\1.txt (The system cannot find the path specified)
 	at Junit.studentsinfo.FirstSerenityTest.filedoesntexist(FirstSerenityTest.java:63)
 ]]></error>
-    <system-err><![CDATA[11750 [main] INFO  - 
-        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
-  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
- (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
-  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
- (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
-        /_/                                                                
+    <system-err><![CDATA[133155 [main] ERROR  - 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ <|  _ <| |_| |  _ < 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
 
 this test will get the info of all the student from the App
-----------------------------------------------------------------------------
-12798 [main] INFO  - 
+---------------------------------------------------------------------
+133156 [main] ERROR  -     Test failed at step: GET
+133156 [main] ERROR  -     Some exception during recording fields
+134068 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -119,7 +119,7 @@ filedoesntexist
   </testcase>
   <testcase name="thisisaSkippedTest" classname="Junit.studentsinfo.FirstSerenityTest" time="0">
     <skipped/>
-    <system-err><![CDATA[12846 [main] ERROR  - 
+    <system-err><![CDATA[134071 [main] ERROR  - 
          __  _____ _____ ____ _____ 
  _      / / |_   _| ____/ ___|_   _|
 (_)____| |    | | |  _| \___ \ | |  
@@ -134,8 +134,8 @@ filedoesntexist
 
 Filedoesntexist
 -------------------------------------
-12855 [main] ERROR  -     E:\damon\test\1.txt (The system cannot find the path specified)
-14049 [main] INFO  - 
+134072 [main] ERROR  -     E:\damon\test\1.txt (The system cannot find the path specified)
+135213 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -144,8 +144,8 @@ Filedoesntexist
 
 thisisaSkippedTest
 -------------------------------------------------------------------
-14052 [main] INFO  -       -> TEST IGNORED
-14055 [main] INFO  - 
+135213 [main] INFO  -       -> TEST IGNORED
+135213 [main] INFO  - 
             __  _____ _____ ____ _____   ____  _  _____ ____  ____  _____ ____  
   _        / / |_   _| ____/ ___|_   _| / ___|| |/ /_ _|  _ \|  _ \| ____|  _ \ 
  (_)_____ / /    | | |  _| \___ \ | |   \___ \| ' / | || |_) | |_) |  _| | | | |
@@ -156,14 +156,11 @@ Thisisa skipped test
 ---------------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="thisIsaFailing" classname="Junit.studentsinfo.FirstSerenityTest" time="0.886">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; doesn&apos;t match actual status code &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <500> doesn't match actual status code <200>.
-
+  <testcase name="thisIsaFailing" classname="Junit.studentsinfo.FirstSerenityTest" time="4.804">
+    <error message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at Junit.studentsinfo.FirstSerenityTest.thisIsaFailing(FirstSerenityTest.java:41)
-]]></failure>
-    <system-err><![CDATA[14811 [main] INFO  - 
+]]></error>
+    <system-err><![CDATA[135989 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -176,18 +173,19 @@ thisIsaFailing
   </testcase>
   <testcase name="thisisaPendingTest" classname="Junit.studentsinfo.FirstSerenityTest" time="0">
     <skipped/>
-    <system-err><![CDATA[14931 [main] ERROR  - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+    <system-err><![CDATA[140025 [main] ERROR  - 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ <|  _ <| |_| |  _ < 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
 
 This isa failing
---------------------------------------------------------------------------
-14933 [main] ERROR  -     1 expectation failed.Expected status code <500> doesn't match actual status code <200>.
-16172 [main] INFO  - 
+---------------------------------------------------------------------
+140026 [main] ERROR  -     Test failed at step: GET
+140026 [main] ERROR  -     Some exception during recording fields
+141234 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -196,7 +194,7 @@ This isa failing
 
 thisisaPendingTest
 -------------------------------------------------------------------
-16174 [main] INFO  - 
+141234 [main] INFO  - 
           __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
  _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
 (_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
@@ -207,11 +205,11 @@ Thisisa pending test
 -------------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="thisisATestWithError" classname="Junit.studentsinfo.FirstSerenityTest" time="0.72">
+  <testcase name="thisisATestWithError" classname="Junit.studentsinfo.FirstSerenityTest" time="0.763">
     <error message="/ by zero" type="java.lang.ArithmeticException"><![CDATA[java.lang.ArithmeticException: / by zero
 	at Junit.studentsinfo.FirstSerenityTest.thisisATestWithError(FirstSerenityTest.java:57)
 ]]></error>
-    <system-err><![CDATA[16896 [main] INFO  - 
+    <system-err><![CDATA[142001 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -222,5 +220,30 @@ thisisATestWithError
 -------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="getAllStudents" classname="Junit.studentsinfo.FirstSerenityTest" time="1.433"/>
+  <testcase name="getAllStudents" classname="Junit.studentsinfo.FirstSerenityTest" time="5.177">
+    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at Junit.studentsinfo.FirstSerenityTest.getAllStudents(FirstSerenityTest.java:34)
+]]></error>
+    <system-err><![CDATA[142004 [main] ERROR  - 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ <|  _ <| |_| |  _ < 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
+
+Thisis a test with error
+---------------------------------------------------------------------
+142004 [main] ERROR  -     / by zero
+143161 [main] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+getAllStudents
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
 </testsuite>
